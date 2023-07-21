@@ -1,15 +1,5 @@
 ---
 title: Liga Canotaje Bogotá D.C.
-description: >-
-  ¡Bienvenido a la página oficial de la Liga de Canotaje de Bogotá! 
-  Sumérgete en el fascinante mundo del remo en la capital de Colombia y 
-  descubre emocionantes actividades acuáticas para todas las edades. 
-  Nuestra liga está dedicada a fomentar la pasión por el canotaje, 
-  brindando oportunidades para competidores y entusiastas por igual. 
-  Explora nuestras instalaciones de vanguardia, conoce a nuestros 
-  talentosos atletas y únete a una comunidad apasionada por la vida en el agua. 
-  ¡Descubre cómo puedes embarcarte en una emocionante aventura acuática con la Liga de Canotaje de Bogotá hoy mismo!
-email: canotaje@canotajebogota.com
 timezone: America/Bogota
 collections:
   posts:
@@ -30,4 +20,13 @@ defaults:
     type: pages
   values:
     layout: page
+description: "¡Bienvenido a la página oficial de la Liga de Canotaje de Bogotá!  Sumérgete
+  en el fascinante mundo del remo en la capital de Colombia y  descubre emocionantes
+  actividades acuáticas para todas las edades.  Nuestra liga está dedicada a fomentar
+  la pasión por el canotaje,  brindando oportunidades para competidores y entusiastas
+  por igual.  Explora nuestras instalaciones de vanguardia, conoce a nuestros  talentosos
+  atletas y únete a una comunidad apasionada por la vida en el agua.  ¡Descubre cómo
+  puedes embarcarte en una emocionante aventura acuática con la Liga de Canotaje de
+  Bogotá hoy mismo!"
+email: canotaje@canotajebogota.com
 permalink: pretty
