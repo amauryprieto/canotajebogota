@@ -1,25 +1,9 @@
----
+# url: https://y7kim.github.io
+# baseurl: /agency-jekyll-theme/
+
+# Site settings
 title: Liga Canotaje Bogotá D.C.
-timezone: America/Bogota
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
+email: canotaje@canotajebogota.com
 description: "¡Bienvenido a la página oficial de la Liga de Canotaje de Bogotá!  Sumérgete
   en el fascinante mundo del remo en la capital de Colombia y  descubre emocionantes
   actividades acuáticas para todas las edades.  Nuestra liga está dedicada a fomentar
@@ -28,5 +12,23 @@ description: "¡Bienvenido a la página oficial de la Liga de Canotaje de Bogot�
   atletas y únete a una comunidad apasionada por la vida en el agua.  ¡Descubre cómo
   puedes embarcarte en una emocionante aventura acuática con la Liga de Canotaje de
   Bogotá hoy mismo!"
-email: canotaje@canotajebogota.com
+
+site
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/ligadecanotajebogota/
+  - title: twitter
+    url: https://twitter.com/canotajedc
+  - title: instagram
+    url: https://www.instagram.com/canotaje_dc/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Av Caracas \# 39 - 18 Apto 610 
+  - line: Bogotá, Colombia
+
+# Build settings
+markdown: kramdown
 permalink: pretty
