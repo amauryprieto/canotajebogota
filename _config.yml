@@ -1,5 +1,5 @@
-# url: https://y7kim.github.io
-# baseurl: /agency-jekyll-theme/
+#url: https://y7kim.github.io
+#baseurl: /agency-jekyll-theme/
 
 # Site settings
 title: Liga Canotaje Bogotá D.C.
@@ -12,8 +12,6 @@ description: "¡Bienvenido a la página oficial de la Liga de Canotaje de Bogot�
   atletas y únete a una comunidad apasionada por la vida en el agua.  ¡Descubre cómo
   puedes embarcarte en una emocionante aventura acuática con la Liga de Canotaje de
   Bogotá hoy mismo!"
-
-site
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

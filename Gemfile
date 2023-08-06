@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'jekyll', '~>'
-gem "minimal-mistakes-jekyll"
+gem 'jekyll', '~>4'
 
 group :development do
   gem 'siteleaf', '~>2'
