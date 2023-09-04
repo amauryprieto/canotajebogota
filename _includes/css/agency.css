@@ -180,6 +180,10 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.primary }};
 }
 
+.navbar-brand > img {
+   width: 40px;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -235,6 +239,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+    .navbar-brand > img {
+	width: 100px;
+    }
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -279,8 +286,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 125px;
+    padding-bottom: 25px;
 }
 
 header .intro-text .intro-lead-in {
@@ -302,8 +309,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 425px;
+        padding-bottom: 75px;
     }
 
     header .intro-text .intro-lead-in {
@@ -498,7 +505,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    /*background-color: #{{ site.data.template.color.primary }};*/
 }
 
 .timeline>li .timeline-image h4 {
