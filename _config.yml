@@ -28,4 +28,40 @@ address:
 - line: Av Caracas \# 39 - 18 Apto 610
 - line: Bogotá, Colombia
 markdown: kramdown
-permalink: pretty
+permalink: pretty 
+
+people:
+- name: Frank Calderon
+  pic: 1
+  position: Mayores
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Luis Carlos
+  pic: 2
+  position: Talento y reserva
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Andres Galvis
+  pic: 3
+  position: Semillero
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+- name: Seleccion Bogotá
+  pic: 4
+  position: 56 deportistas
+
